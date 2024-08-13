@@ -61,7 +61,7 @@ header {
 .site-header-main {
   display: flex;
   justify-content: space-between;
-  height: 125px;
+  height: 100px;
 }
 
 .sec-menu {
@@ -236,7 +236,54 @@ header {
   font-family: Garamond, serif;
 }
 
+#Delivery {
+  max-height: 200px;
+  
+  background: #161a30;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
 
+#Delivery h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    max-width: 16px;
+}
+
+#Delivery .sec-menu {
+    justify-content: center;
+    padding: 40px;
+}
+
+#Icone {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+#titulo h2 {
+  color: #8e0b77;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 100px ;
+  padding: top;
+}
+
+
+.itens{
+  max-width: 200px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Garamond, serif;
+}
 
 footer {
   background: #161a30;
