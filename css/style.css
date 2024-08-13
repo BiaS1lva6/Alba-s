@@ -187,3 +187,89 @@ header {
     opacity: 1;
   }
 }
+#separacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  color: #161a30;
+}
+
+#separacao img {
+  padding: 36px 0;
+}
+#BoasVindas {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  background: #f6f6f6;
+  margin-top: 40px;
+}
+
+#BoasVindas img {
+  padding: 0 100px;
+}
+#TextoBoasVindas {
+  max-width: 600px;
+  padding-right: 100px;
+}
+#TextoBoasVindas h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 20px;
+  margin: 0;
+  font-family: Garamond, serif;
+}
+
+#TextoBoasVindas h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #8e0b77;
+  font-size: 23px;
+  margin-bottom: 0;
+  margin-top: 20;
+}
+
+#TextoBoasVindas p {
+  margin-bottom: 0;
+  font-family: Garamond, serif;
+}
+
+
+
+footer {
+  background: #161a30;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+footer #dados {
+  display: flex;
+  margin: 0 14%;
+  justify-content: space-between;
+}
+
+#dados p,
+#dados h4 {
+  margin: 0;
+}
+
+#dados h4 {
+  margin-top: 50px;
+}
+
+footer #dados:first-child {
+  margin-left: 20%;
+}
+
+#copyright {
+  text-align: center;
+  margin-top: 100px;
+}
+
+textarea{
+  resize: none;
+}
