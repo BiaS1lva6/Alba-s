@@ -238,9 +238,8 @@ header {
 
 #Delivery {
   max-height: 200px;
-  
   background: #161a30;
-  margin: 50px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,12 +251,17 @@ header {
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    max-width: 16px;
+    max-width: 10px;
+    max-height: 16px;
 }
 
 #Delivery .sec-menu {
     justify-content: center;
-    padding: 40px;
+    padding: 30px;
+}
+
+#btnzap {
+max-width: 10px;
 }
 
 #Icone {
